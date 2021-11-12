@@ -10,6 +10,7 @@ const sequelize = process.env.JAWSDB_URL
       dialectOptions: {
         decimalNumbers: true,
       },
+      logQueryParameters: true
     });
 
 module.exports = sequelize;
